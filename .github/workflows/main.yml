@@ -10,7 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: source sr
+      
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
